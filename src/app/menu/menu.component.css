@@ -1,0 +1,62 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+.side-menu {
+    width: 220px;
+    height: 90vh; /* Use 100vh to make the side menu full height of the viewport */
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 15px;
+    padding-right: 0px !important;
+    margin-bottom: 20px;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space items vertically */
+    position: fixed;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-md-3{
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+      padding-bottom: 30px !important;
+    }
+    
+    .menu-options {
+      display: flex;
+      flex-direction: column;
+      padding-right: 50px;
+    }
+    
+    .menu-option {
+      padding: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 15px;
+      white-space: nowrap;
+      margin-right: -42px;
+    }
+    
+    .menu-option:hover {
+    background-color:  rgb(233, 226, 226);
+    border-color : black;
+    border-radius: 18px;
+    color:  rgb(255, 81, 0);
+    box-shadow: 2px 2px 4px rgb(245, 84, 10);
+    }
+    
+    .menu-option:not(:hover) {
+      background-color: #3b3b3b;
+      color: #fff;
+    }
+  
+    .dropdown-content{
+      padding-left: 20px;
+    }
+  
+    .menu-option i{
+      margin-right: 5px;
+    }

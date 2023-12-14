@@ -1,0 +1,37 @@
+.header{
+    position: fixed;
+    margin-top: 0;
+    background-color: white;
+    z-index: 1000;
+  }
+  
+  div {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .main-content{
+    padding-top: 60px;
+    padding-left: 0px !important;
+  }
+  
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C394B ;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  
+  
+  .sidebar {
+      width: 200px;
+      position: fixed;
+  }
+  
+  

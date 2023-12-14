@@ -1,0 +1,28 @@
+.logo-container{
+    cursor: zoom-in;
+   margin-left: 100px; 
+   width: 37%; /* Initial size */
+   max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+   height: auto;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: black;
+      flex: 0 0 auto;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:white;
+        padding-right: 30px;
+
+        img {
+            vertical-align: middle;
+            border-style: none;
+            width: 150px;
+        }
+    }
